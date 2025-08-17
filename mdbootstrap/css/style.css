@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+MX+Guides&display=swap');
+
+p{
+      font-family: "Edu NSW ACT Cursive", cursive;
+
+}
+h2{
+      font-family: "Playwrite MX Guides", cursive;
+
+}
+
+   /* Default height for small devices */
+    #intro-example {
+      height: 400px;
+    }
+
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {
+      #intro-example {
+        height: 600px;
+      }
+    }
