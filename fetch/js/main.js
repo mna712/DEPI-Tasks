@@ -12,7 +12,7 @@ function fetchdata() {
             <img src="${e.image_url}"class="w-100" style="height:350px">
             <h6>${e.title}</h6>
             <h5>${e.publisher}</h5>
-            <h5>${e.id}</h5>
+            <h5>${e.recipe_id}</h5>
           </div> 
         `;
         content += box;
@@ -30,3 +30,4 @@ function fetchdata() {
 }
 
 fetchdata();
+
